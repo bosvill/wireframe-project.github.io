@@ -1,0 +1,90 @@
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #f8f6f6;
+    font-size: 14px;
+    line-height: 20px;
+    margin:0;
+    padding: 0;
+}
+.section-3 {
+    background-color: #c7aa8b;
+    padding: 2% 15%;
+    
+    
+}
+.w-row{
+    display: flex;
+    flex-direction: row;
+}
+.w-col{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.number {
+    opacity: 0.2;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    padding-top: 0px;
+    color: rgb(55 55 55);
+    font-size: 16px;
+    text-transform: uppercase;
+}
+.process-titles{
+    font-weight: 600;
+    color: rgb(55 55 55);
+    padding-bottom:20px;
+   
+    
+}
+p{
+    color: rgb(55 55 55)
+}
+
+
+.hr{
+    width: 50%;
+    opacity: 0.2;
+}
+.hr2 {
+
+    width: 15%;
+}
+.container{
+    overflow: hidden;
+    height: 400px;
+    position: relative;
+    color: white;
+    text-align: center;
+    font-size:1.5rem;
+
+}
+
+
+.centerText {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  
+  }
+.sliding-background{
+    background:url(./images/iran-g981a670e5_1920.jpg) repeat-x;
+    background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+ 
+}
+@keyframes slide{
+    0% {
+      transform: translate3d(0, 0, 0);
+    }
+    100% {
+      transform: translate3d(-1692px, 0, 0);
+    }
+  }
