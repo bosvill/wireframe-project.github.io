@@ -1,3 +1,4 @@
+
 body{
     font-family: 'Roboto Condensed', sans-serif;
     color: #333;
@@ -85,4 +86,214 @@ body{
     text-align: end;
     margin-right:  3em;
     margin-left: 60em;
+=======
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #4d4d4d;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+h3 {
+    padding: 0;
+    margin: 0;
+}
+
+.team-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+    margin: 5rem 0;
+}
+
+.team-title {
+    flex: 2 1 5rem;
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin: 0;
+    
+}
+
+.teammate {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: .8rem;
+}
+
+
+
+
+.teammate img {
+    flex: 2 1 300px;
+    
+}
+
+.name {
+    /* margin-top: 0.8rem; */
+}
+
+.position {
+    font-family: Vollkorn, serif;
+    margin-bottom: 0.5rem;
+    font-style: italic;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+.lightgrey {
+    background-color: #f7f7f7;
+
+}
+
+.testmonials-container {
+    width: 80%;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 5rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.testemonials-title {
+    color: #3232325c;
+    text-transform: uppercase;
+    align-self: center;
+    text-align: center;
+    margin: 1rem auto;
+}
+
+.testemonials-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.testemonials {
+    text-align: center;
+}
+
+.testemonial {
+    font-family: Vollkorn, serif;
+    font-size: 1.1rem;
+    font-style: italic;
+}
+
+.author {
+    color: #c7aa8b;
+    text-transform: uppercase;
+}
+
+.footer {
+    background-color: #323232;
+    color: #c7aa8b;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1rem;
+    padding:3rem 0;
+}
+
+.logo,
+.address {
+    color: #858585;
+    font-size: .9rem;
+    font-style: normal;
+}
+
+.contact-btn {
+    background-color: #323232;
+    color: #c7aa8b;
+    border: 1px solid #c7aa8b;
+    padding: 0.5rem 2rem;
+
+}
+
+.contact-btn a {
+    text-decoration: none;
+    color: #c7aa8b;
+    text-transform: uppercase;
+    text-align: center;
+    font-style: normal;
+
+}
+
+.contact-btn:hover,
+.contact-btn:focus,
+.contact-btn:active {
+    background-color: #c7aa8b;
+}
+
+
+.contact-btn a:hover,
+.contact-btn a:focus,
+.contact-btn a:active {
+    background-color: #c7aa8b;
+    color: #323232;
+}
+
+
+@media screen 
+    and (min-width:840px) {
+        .container {
+            width: 80%;
+            margin: 0 auto;
+
+        }
+
+        .team-container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        flex: 1;
+    }
+        .team-title {
+            flex-basis: min-content;
+            
+        }
+        .teammate img {
+            flex: 2 1 200px;
+            
+        }
+        
+        .testemonials-title {
+            align-self: flex-start;
+        }
+        .testemonials-wrapper {
+            flex-direction:row;
+            justify-content: space-between;
+        }
+        .testemonials {
+            display: flex;
+            flex-direction: column;
+        }
+        .testemonial {
+            flex: 1;
+        }
+        .footer {
+            flex-direction: row;
+        }
+}
+
+@media screen and (min-width:1022px) {
+        .team-title {
+            max-width: 300px;
+        }
+        .teammate img {
+            flex: 2 0 167px;
+
+    }
+
+    .testmonials-container {
+        max-width: 776px;
+    }
 }
