@@ -4,7 +4,7 @@ body{
     color: #333;
     font-size: 14px;
     line-height: 20px;
-    background-image: url("https://assets.website-files.com/5e457cdd6bf0d06897420d3a/5e457cdd6bf0d05bfa420d5f_town.jpg");
+    
      height: 20%;
 }
 
@@ -66,6 +66,10 @@ body{
     
 .main h1, h3 {
     color: white;
+}
+
+.main {
+    background-image: url("https://assets.website-files.com/5e457cdd6bf0d06897420d3a/5e457cdd6bf0d05bfa420d5f_town.jpg");
 }
    
 .button {
