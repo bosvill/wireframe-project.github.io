@@ -1,3 +1,92 @@
+
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #333;
+    font-size: 14px;
+    line-height: 20px;
+    background-image: url("https://assets.website-files.com/5e457cdd6bf0d06897420d3a/5e457cdd6bf0d05bfa420d5f_town.jpg");
+     height: 20%;
+}
+
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    text-align: start;
+    padding-top: 1em;
+    padding-left: 15%;
+ 
+ }
+ #topnav{
+    display: flex;
+    justify-content: start;
+    text-align: start; 
+ }
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: 'Roboto Condensed Light', sans-serif; 
+    max-width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+  }
+
+
+  .topnav a:hover {
+    background-color: black;
+    color: white;
+  }
+  
+
+  .topnav a.active {
+    background-color: black;
+    color: rgb(194, 177, 177);
+  }
+
+.logo{
+  padding-left: 10em;  
+}
+   
+.main{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-position: 50% 50%;
+    text-align: center;
+    color: white;
+}
+    
+.main h1, h3 {
+    color: white;
+}
+   
+.button {
+      display: inline-block;
+      padding: 8px 15px;
+      border: 2px solid #fff;
+      background-color: rgba(77, 77, 77, 0.2);
+      -webkit-transition: all 100ms ease;
+      transition: all 100ms ease;
+      color: #fff;
+      font-size: 16px;
+      text-align: center;
+      text-decoration: none;
+}
+.sm{
+    display: flex;
+    justify-content: flex-end;
+    text-align: end;
+    margin-right:  3em;
+    margin-left: 60em;
+=======
 body {
     margin: 0;
     padding: 0;
