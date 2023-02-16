@@ -49,27 +49,40 @@ p{
     opacity: 0.2;
 }
 .hr2 {
-
-    width: 15%;
+   
+    width: 70%;
+    opacity: 0.2;
 }
 .container{
     overflow: hidden;
     height: 400px;
     position: relative;
-    color: white;
-    text-align: center;
-    font-size:1.5rem;
+    color:  #c7aa8b;
+    text-align: left;
+    /* font-size:1.5rem; */
 
 }
 
 
 .centerText {
-    position: absolute;
-    width: 100%;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  
+        position: absolute;
+
+        margin: 0px 0px 10px;
+        color: #c7aa8b;
+        font-size: 40px;
+        line-height: 55px;
+        font-weight: 500;
+        top: 35%;
+        left: 10%;
+    
+        /* position: absolute;
+        top: 50%;
+        left: 10%;
+        transform: translate(-50%, -50%);
+        font-size: 2em; 
+        max-width: 100%; 
+         white-space: wrap; 
+        overflow: hidden;  */
   }
 .sliding-background{
     background:url(./images/iran-g981a670e5_1920.jpg) repeat-x;
@@ -80,11 +93,3 @@ p{
   height: 400px;
  
 }
-@keyframes slide{
-    0% {
-      transform: translate3d(0, 0, 0);
-    }
-    100% {
-      transform: translate3d(-1692px, 0, 0);
-    }
-  }
