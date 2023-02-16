@@ -104,6 +104,9 @@ h3 {
     margin: 0;
 }
 
+.container {
+    background-color: white;
+
 .team-container {
     display: flex;
     flex-wrap: wrap;
